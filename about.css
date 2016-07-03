@@ -1,0 +1,77 @@
+body {
+  font-family: YuGothic, "游ゴシック", "メイリオ", Meiryo, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", sans-serif;
+  font-size: 17px;
+  margin: 0 auto;
+  width: 900px;
+}
+
+/*ナビゲーション*/
+nav ul{
+ overflow: hidden;
+ margin: 0 0 10px 0;
+ padding: 0;
+ border: 1px solid #ddd;
+ border-radius: 7px;
+ box-shadow: inset 1px 1px 0 #fff, 1px 1px 3px rgba(0, 0, 0, 0.1);
+ line-height: 1.0;
+}
+
+nav li, nav a{
+  display: block
+}
+
+nav li{
+  float: left;
+  border-right: 1px solid #ddd;
+}
+
+nav a{
+  padding: 15px 25px;
+  font-weight: bold;
+  text-decoration: none;
+  text-shadow: 1px 1px 0 #fff;
+}
+
+nav #current a{
+  color: #333;
+  background: #fff;
+}
+
+
+/*アプリケーション概要*/
+.center{
+  text-align: center;
+  width: auto;
+}
+
+.sample{
+  border-radius: 10px;
+  width: 800px;
+  height: 350px;
+  margin: 10px;
+  padding: 0;
+}
+
+/*製作者プロフィール*/
+#sub{
+  float: left;
+  width: 350;
+}
+
+#sub2{
+  float: right;
+  width: 550px;
+  text-align: center
+}
+
+h3{
+  font-weight: bolder;
+}
+
+footer{
+  clear: both;
+   padding: 20px 0;
+  font-size: 93%;
+  text-align: center;
+  color: #666;
+}
